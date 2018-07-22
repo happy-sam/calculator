@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext');
+
+*{
+    box-sizing: border-box;    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+        
+}
+
+form{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+table{
+    border: 2px solid silver;
+    padding: 10px;        
+    box-shadow: 5px 5px 15px grey;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, silver, white);
+        
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #c9fcdb, #effff5);
+    outline: 0;
+}
+
+input[name=screen]{
+    width: 175px;
+    height: 40px;
+    font-size: 20px;
+    background:white;        
+    padding: 0 5px;
+    text-align: right;            
+    outline: 0;
+}
+
+input[name=on]{
+    width: 70px;
+    margin-left: 15px;
+    height: 40px;    
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #82ca9c, #96eab3);
+    outline: 0;
+}
+
+input[name=plus]{
+    width: 40px;
+    height: 85px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #82ca9c, #96eab3);
+    outline: 0;
+}
+
+input[name=plus]:hover{    
+}
+
+
